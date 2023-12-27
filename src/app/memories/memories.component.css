@@ -1,0 +1,24 @@
+/* Adjust the width and margin as needed */
+.custom-card {
+    width: calc(80%); /* Adjust the width for the number of cards you want per row */
+  
+    /* This ensures the cards do not stretch vertically */
+    max-height: 100%;
+  }
+
+  .profile-card {
+    height: 300px;
+  }
+  
+  /* Flexbox styles for mat-list */
+  .mat-list-item {
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align cards from the left */
+  }
+
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
