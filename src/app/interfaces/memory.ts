@@ -1,5 +1,9 @@
 export interface Memory {
-    id: number;
-    name: string;
+    title: string;
+    date: Date;
+    description: string;
+    username: string;
+    picture: [string];
+    activityId: number;
     location: string;
   }
